@@ -1,0 +1,9 @@
+.DS_Store
+
+# terraform backup files
+*.tfstate.backup
+
+# terraform tfvars files (might contain aws keys)
+terraform.tfvars
+
+.vagrant
