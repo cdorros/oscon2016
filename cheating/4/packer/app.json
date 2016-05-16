@@ -3,6 +3,8 @@
     {
       "type": "amazon-ebs",
       "region": "{{user `aws_region`}}",
+      "vpc_id": "{{user `aws_vpc_id`}}",
+      "subnet_id": "{{user `aws_subnet_id`}}",
       "source_ami": "{{user `ubuntu_1404_ami`}}",
       "instance_type": "{{user `aws_instance_type`}}",
       "ssh_username": "{{user `aws_ssh_username`}}",
@@ -27,4 +29,4 @@
       ]
     }
   ]
-} 
+}
